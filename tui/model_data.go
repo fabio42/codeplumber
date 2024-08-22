@@ -1,7 +1,7 @@
 package tui
 
 import (
-	awsqueries "codeplumber/aws"
+	awsqueries "github.com/fabio42/codeplumber/aws"
 )
 
 // DataCache is a struct to hold the data cache

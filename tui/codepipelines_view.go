@@ -1,8 +1,9 @@
 package tui
 
 import (
-	"codeplumber/models/table"
 	"fmt"
+
+	"github.com/fabio42/codeplumber/models/table"
 
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/key"

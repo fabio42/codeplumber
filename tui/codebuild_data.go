@@ -1,11 +1,12 @@
 package tui
 
 import (
-	awsqueries "codeplumber/aws"
-	"codeplumber/models/table"
 	"fmt"
 	"strconv"
 	"strings"
+
+	awsqueries "github.com/fabio42/codeplumber/aws"
+	"github.com/fabio42/codeplumber/models/table"
 
 	"github.com/pkg/browser"
 	"github.com/rs/zerolog/log"

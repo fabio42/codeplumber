@@ -1,11 +1,12 @@
 package tui
 
 import (
-	awsqueries "codeplumber/aws"
-	"codeplumber/models/table"
 	"fmt"
 	"slices"
 	"time"
+
+	awsqueries "github.com/fabio42/codeplumber/aws"
+	"github.com/fabio42/codeplumber/models/table"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/codepipeline"

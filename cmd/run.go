@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"codeplumber/tui"
 	"context"
 	"fmt"
+
+	"github.com/fabio42/codeplumber/tui"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/aws/retry"

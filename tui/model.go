@@ -1,10 +1,11 @@
 package tui
 
 import (
-	awsqueries "codeplumber/aws"
-	"codeplumber/cmd/vcr"
 	"fmt"
 	"time"
+
+	awsqueries "github.com/fabio42/codeplumber/aws"
+	"github.com/fabio42/codeplumber/cmd/vcr"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/charmbracelet/bubbles/key"

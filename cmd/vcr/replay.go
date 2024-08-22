@@ -1,9 +1,10 @@
 package vcr
 
 import (
-	awsqueries "codeplumber/aws"
 	"fmt"
 	"time"
+
+	awsqueries "github.com/fabio42/codeplumber/aws"
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 )

@@ -1,4 +1,4 @@
-module codeplumber
+module github.com/fabio42/codeplumber
 
 go 1.21
 

@@ -1,10 +1,11 @@
 package tui
 
 import (
-	awsqueries "codeplumber/aws"
 	"fmt"
 	"path/filepath"
 	"strings"
+
+	awsqueries "github.com/fabio42/codeplumber/aws"
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs"
 	"github.com/rs/zerolog/log"

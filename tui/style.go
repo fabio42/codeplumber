@@ -1,8 +1,9 @@
 package tui
 
 import (
-	"codeplumber/models/table"
 	"strings"
+
+	"github.com/fabio42/codeplumber/models/table"
 
 	"github.com/charmbracelet/lipgloss"
 	tint "github.com/lrstanley/bubbletint"
